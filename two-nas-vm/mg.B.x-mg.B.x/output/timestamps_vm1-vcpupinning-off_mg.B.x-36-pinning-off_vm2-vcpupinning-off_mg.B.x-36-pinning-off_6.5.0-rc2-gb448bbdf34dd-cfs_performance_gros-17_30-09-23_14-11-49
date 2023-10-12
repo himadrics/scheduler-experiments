@@ -1,0 +1,48 @@
+ssh vm1 /root/dispel/utils/nas1_in_loop.sh nas1=mg.B.x nas2=mg.B.x cpuset=none threads=36 machine=gros-17 &
+ssh vm2 /root/dispel/utils/nas2_in_loop.sh nas1=mg.B.x nas2=mg.B.x cpuset=none threads=36 machine=gros-17 &
+gros-17: nas2 started exp-1 at 1696075916.536191132
+gros-17: nas1 started exp-1 at 1696075916.537356582
+gros-17: nas1 ended exp-1 at 1696075927.110440272
+gros-17: nas1 started exp-2 at 1696075927.111948911
+gros-17: nas2 ended exp-1 at 1696075927.249805258
+gros-17: nas2 started exp-2 at 1696075927.261308304
+gros-17: nas1 ended exp-2 at 1696075937.178551148
+gros-17: nas1 started exp-3 at 1696075937.180083401
+gros-17: nas2 ended exp-2 at 1696075937.288685225
+gros-17: nas2 started exp-3 at 1696075937.290302203
+gros-17: nas1 ended exp-3 at 1696075947.523876173
+gros-17: nas1 started exp-4 at 1696075947.529977875
+gros-17: nas2 ended exp-3 at 1696075948.081888935
+gros-17: nas2 started exp-4 at 1696075948.089648692
+gros-17: nas1 ended exp-4 at 1696075958.250257309
+gros-17: nas1 started exp-5 at 1696075958.252126495
+gros-17: nas2 ended exp-4 at 1696075959.119106418
+gros-17: nas2 started exp-5 at 1696075959.121000392
+gros-17: nas1 ended exp-5 at 1696075968.827926318
+gros-17: nas1 started exp-6 at 1696075968.829868143
+gros-17: nas2 ended exp-5 at 1696075969.705125507
+gros-17: nas2 started exp-6 at 1696075969.712069143
+gros-17: nas1 ended exp-6 at 1696075979.531147162
+gros-17: nas1 started exp-7 at 1696075979.532926906
+gros-17: nas2 ended exp-6 at 1696075980.282781034
+gros-17: nas2 started exp-7 at 1696075980.284431625
+gros-17: nas1 ended exp-7 at 1696075988.927651605
+gros-17: nas1 started exp-8 at 1696075988.929310448
+gros-17: nas2 ended exp-7 at 1696075989.949573950
+gros-17: nas2 started exp-8 at 1696075989.951132652
+gros-17: nas1 ended exp-8 at 1696075999.599956064
+gros-17: nas1 started exp-9 at 1696075999.601777677
+gros-17: nas2 ended exp-8 at 1696075999.970596157
+gros-17: nas2 started exp-9 at 1696075999.973872634
+gros-17: nas1 ended exp-9 at 1696076009.059859841
+gros-17: nas1 started exp-10 at 1696076009.061341691
+gros-17: nas2 ended exp-9 at 1696076010.137759480
+gros-17: nas2 started exp-10 at 1696076010.142568531
+gros-17: nas1 ended exp-10 at 1696076019.593956399
+gros-17: nas1 finished 10 runs
+gros-17: nas1 started exp-11 at 1696076019.610004474
+gros-17: nas2 ended exp-10 at 1696076020.607917413
+gros-17: nas2 finished 10 runs
+gros-17: nas2 started exp-11 at 1696076020.615429052
+gros-17: nas1 ended exp-11 at 1696076029.703063584
+gros-17: nas2 ended exp-11 at 1696076029.836029149
